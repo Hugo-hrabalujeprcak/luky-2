@@ -1,0 +1,165 @@
+int cislo = 120;
+if (cislo > 150)
+{
+   Console.WriteLine("VELKÉ ČÍSLO");
+}
+else
+{
+   Console.WriteLine("MALÉ ČÍSLO");
+}
+
+
+int cislo = 120;
+if (cislo > 150)
+{
+   Console.WriteLine("VELKÉ ČÍSLO");
+}
+if (cislo > 100)
+{
+   Console.WriteLine("MENŠÍ VELKÉ ČÍSLO");
+}
+
+
+int cislo = 120;
+if (cislo > 150)
+{
+   ("VELKÉ ČÍSLO");
+}
+else
+{
+   ("JINÉ ČÍSLO");
+}
+if (cislo > 100)
+{
+   ("MENŠÍ VELKÉ ČÍSLO");
+}
+
+
+int cislo = 120;
+if (cislo > 150)
+{
+   ("VELKÉ ČÍSLO");
+}
+if (cislo > 100)
+{
+   ("MENŠÍ VELKÉ ČÍSLO");
+}
+else
+{
+   ("JINÉ ČÍSLO");
+}
+
+
+if (cislo > 50)
+{
+   Console.WriteLine("VELKÉ ČÍSLO");
+}
+else if (cislo > 40)
+{
+   Console.WriteLine("STÁLE VELKÉ ČÍSLO");
+}
+else
+{
+   Console.WriteLine("MALÉ ČÍSLO");
+}
+
+
+if (cislo > 50)
+{
+   ("VELKÉ ČÍSLO");
+}
+else if (cislo > 40)
+{
+   ("STÁLE VELKÉ ČÍSLO");
+}
+else if (cislo > 30)
+{
+   ("MEDIUM ČÍSLO");
+}
+else
+{
+   Console.WriteLine("MALÉ ČÍSLO");
+}
+
+
+if (cislo > 30)
+{
+   ("MEDIUM ČÍSLO");
+}
+else if (cislo > 40)
+{
+   ("STÁLE VELKÉ ČÍSLO");
+}
+else if (cislo > 50)
+{
+   ("VELKÉ ČÍSLO");
+}
+else
+{
+   Console.WriteLine("MALÉ ČÍSLO");
+}
+
+
+if (palivo > 5)
+{
+   CW("STARTUJI VOZIDLO");
+   if (palivo < 30)
+   {
+       CW("DOPLŇTE PALIVO");
+   }
+   else
+   {
+       CW("POHODLNÉ MNOŽSTVÍ PALIVA");
+   }
+}
+else
+{
+   CW("NEDOSTATEK PALIVA");
+}
+
+
+string heslo = "ABRAKADABRA";
+if (heslo.Length > 5)
+{
+   CW("DELŠÍ NEŽ 5 PÍSMEN!");
+}
+else
+{
+   CW("NEDOSTATEK PÍSMENEK");
+}
+
+
+string heslo = "ABRAKADABRA";
+if (heslo.Contains("Z"))
+{
+   CW("OBSAHUJE ZETKO");
+}
+else
+{
+   CW("NEOBSAHUJE PÍSMENO Z");
+}
+
+
+string heslo = Console.ReadLine();
+if (heslo == "ABRAKADABRA")
+{
+   CW("ZADAL*A JSTE HESLO PŘESNĚ");
+}
+else
+{
+   CW("NOPE");
+}
+
+
+string heslo = "ABRAKADABRA";
+if (heslo.StartsWith("ABRA"))
+{
+   CW("ZAČÍNÁ NA ABRA!");
+}
+
+
+string heslo = "ABRAKADABRA";
+if (heslo.EndsWith("ABRA"))
+{
+   CW("KONČÍ NA ABRA!");
+}
